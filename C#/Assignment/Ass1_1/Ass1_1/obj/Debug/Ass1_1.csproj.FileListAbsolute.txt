@@ -1,0 +1,7 @@
+C:\Users\subhadevik\Practice\C#\Assignment\Ass1_1\Ass1_1\bin\Debug\Ass1_1.exe.config
+C:\Users\subhadevik\Practice\C#\Assignment\Ass1_1\Ass1_1\bin\Debug\Ass1_1.exe
+C:\Users\subhadevik\Practice\C#\Assignment\Ass1_1\Ass1_1\bin\Debug\Ass1_1.pdb
+C:\Users\subhadevik\Practice\C#\Assignment\Ass1_1\Ass1_1\obj\Debug\Ass1_1.csproj.AssemblyReference.cache
+C:\Users\subhadevik\Practice\C#\Assignment\Ass1_1\Ass1_1\obj\Debug\Ass1_1.csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\Practice\C#\Assignment\Ass1_1\Ass1_1\obj\Debug\Ass1_1.exe
+C:\Users\subhadevik\Practice\C#\Assignment\Ass1_1\Ass1_1\obj\Debug\Ass1_1.pdb
