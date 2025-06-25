@@ -1,0 +1,7 @@
+C:\Users\subhadevik\Practice\C#\CodeChallenge\CC1\CC1\CC1\bin\Debug\CC1.exe.config
+C:\Users\subhadevik\Practice\C#\CodeChallenge\CC1\CC1\CC1\bin\Debug\CC1.exe
+C:\Users\subhadevik\Practice\C#\CodeChallenge\CC1\CC1\CC1\bin\Debug\CC1.pdb
+C:\Users\subhadevik\Practice\C#\CodeChallenge\CC1\CC1\CC1\obj\Debug\CC1.csproj.AssemblyReference.cache
+C:\Users\subhadevik\Practice\C#\CodeChallenge\CC1\CC1\CC1\obj\Debug\CC1.csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\Practice\C#\CodeChallenge\CC1\CC1\CC1\obj\Debug\CC1.exe
+C:\Users\subhadevik\Practice\C#\CodeChallenge\CC1\CC1\CC1\obj\Debug\CC1.pdb
