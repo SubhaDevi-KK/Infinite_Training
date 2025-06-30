@@ -1,0 +1,7 @@
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_2\Task_2\bin\Debug\Task_2.exe.config
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_2\Task_2\bin\Debug\Task_2.exe
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_2\Task_2\bin\Debug\Task_2.pdb
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_2\Task_2\obj\Debug\Task_2.csproj.AssemblyReference.cache
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_2\Task_2\obj\Debug\Task_2.csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_2\Task_2\obj\Debug\Task_2.exe
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_2\Task_2\obj\Debug\Task_2.pdb

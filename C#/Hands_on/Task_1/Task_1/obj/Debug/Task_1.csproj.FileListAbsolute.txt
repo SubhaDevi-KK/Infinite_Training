@@ -1,0 +1,6 @@
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_1\Task_1\bin\Debug\Task_1.exe.config
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_1\Task_1\bin\Debug\Task_1.exe
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_1\Task_1\bin\Debug\Task_1.pdb
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_1\Task_1\obj\Debug\Task_1.csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_1\Task_1\obj\Debug\Task_1.exe
+C:\Users\subhadevik\Practice\C#\Hands_on\Task_1\Task_1\obj\Debug\Task_1.pdb
