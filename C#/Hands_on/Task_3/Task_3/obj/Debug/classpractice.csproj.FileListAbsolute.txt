@@ -1,0 +1,7 @@
+C:\Users\subhadevik\C_Sharp\classtime\classpractice\classpractice\bin\Debug\classpractice.exe.config
+C:\Users\subhadevik\C_Sharp\classtime\classpractice\classpractice\bin\Debug\classpractice.exe
+C:\Users\subhadevik\C_Sharp\classtime\classpractice\classpractice\bin\Debug\classpractice.pdb
+C:\Users\subhadevik\C_Sharp\classtime\classpractice\classpractice\obj\Debug\classpractice.csproj.AssemblyReference.cache
+C:\Users\subhadevik\C_Sharp\classtime\classpractice\classpractice\obj\Debug\classpractice.csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\C_Sharp\classtime\classpractice\classpractice\obj\Debug\classpractice.exe
+C:\Users\subhadevik\C_Sharp\classtime\classpractice\classpractice\obj\Debug\classpractice.pdb
