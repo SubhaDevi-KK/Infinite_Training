@@ -1,0 +1,7 @@
+C:\Users\subhadevik\Practice\C#\Assignment_From_6th\Assignment_7\Question1And2\Question1And2\bin\Debug\Question1And2.exe.config
+C:\Users\subhadevik\Practice\C#\Assignment_From_6th\Assignment_7\Question1And2\Question1And2\bin\Debug\Question1And2.exe
+C:\Users\subhadevik\Practice\C#\Assignment_From_6th\Assignment_7\Question1And2\Question1And2\bin\Debug\Question1And2.pdb
+C:\Users\subhadevik\Practice\C#\Assignment_From_6th\Assignment_7\Question1And2\Question1And2\obj\Debug\Question1And2.csproj.AssemblyReference.cache
+C:\Users\subhadevik\Practice\C#\Assignment_From_6th\Assignment_7\Question1And2\Question1And2\obj\Debug\Question1And2.csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\Practice\C#\Assignment_From_6th\Assignment_7\Question1And2\Question1And2\obj\Debug\Question1And2.exe
+C:\Users\subhadevik\Practice\C#\Assignment_From_6th\Assignment_7\Question1And2\Question1And2\obj\Debug\Question1And2.pdb
