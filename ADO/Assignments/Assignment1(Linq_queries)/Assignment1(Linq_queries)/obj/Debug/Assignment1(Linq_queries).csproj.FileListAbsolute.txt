@@ -1,0 +1,7 @@
+C:\Users\subhadevik\Practice\ADO\Assignments\Assignment1(Linq_queries)\Assignment1(Linq_queries)\bin\Debug\Assignment1(Linq_queries).exe.config
+C:\Users\subhadevik\Practice\ADO\Assignments\Assignment1(Linq_queries)\Assignment1(Linq_queries)\bin\Debug\Assignment1(Linq_queries).exe
+C:\Users\subhadevik\Practice\ADO\Assignments\Assignment1(Linq_queries)\Assignment1(Linq_queries)\bin\Debug\Assignment1(Linq_queries).pdb
+C:\Users\subhadevik\Practice\ADO\Assignments\Assignment1(Linq_queries)\Assignment1(Linq_queries)\obj\Debug\Assignment1(Linq_queries).csproj.AssemblyReference.cache
+C:\Users\subhadevik\Practice\ADO\Assignments\Assignment1(Linq_queries)\Assignment1(Linq_queries)\obj\Debug\Assignment1(Linq_queries).csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\Practice\ADO\Assignments\Assignment1(Linq_queries)\Assignment1(Linq_queries)\obj\Debug\Assignment1(Linq_queries).exe
+C:\Users\subhadevik\Practice\ADO\Assignments\Assignment1(Linq_queries)\Assignment1(Linq_queries)\obj\Debug\Assignment1(Linq_queries).pdb
