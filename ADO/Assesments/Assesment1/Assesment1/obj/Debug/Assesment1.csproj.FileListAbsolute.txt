@@ -1,0 +1,7 @@
+C:\Users\subhadevik\Practice\ADO\Assesments\Assesment1\Assesment1\bin\Debug\Assesment1.exe.config
+C:\Users\subhadevik\Practice\ADO\Assesments\Assesment1\Assesment1\bin\Debug\Assesment1.exe
+C:\Users\subhadevik\Practice\ADO\Assesments\Assesment1\Assesment1\bin\Debug\Assesment1.pdb
+C:\Users\subhadevik\Practice\ADO\Assesments\Assesment1\Assesment1\obj\Debug\Assesment1.csproj.AssemblyReference.cache
+C:\Users\subhadevik\Practice\ADO\Assesments\Assesment1\Assesment1\obj\Debug\Assesment1.csproj.CoreCompileInputs.cache
+C:\Users\subhadevik\Practice\ADO\Assesments\Assesment1\Assesment1\obj\Debug\Assesment1.exe
+C:\Users\subhadevik\Practice\ADO\Assesments\Assesment1\Assesment1\obj\Debug\Assesment1.pdb
