@@ -1,0 +1,58 @@
+﻿<
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teddy Bear Rolling with Delay</title>
+    <style>
+        .teddy {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: 50px auto;
+            animation: roll 4s ease-in-out infinite;
+        }
+
+        @keyframes roll {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(360deg); 
+            }
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="C:\Users\subhadevik\Practice\WebTechnologies\Assignments\Assignment2\Image3.jpg"
+         alt="Rolling Teddy Bear"
+         class="teddy"
+         id="teddyBear">
+
+    <button onclick="restartAnimation()">Restart Animation</button>
+
+    <script>
+        function restartAnimation() {
+            const bear = document.getElementById("teddyBear");
+            bear.style.animation = 'none';
+            void bear.offsetWidth;
+            bear.style.animation = 'roll 4s ease-in-out infinite';
+        }
+    </script>
+
+</body>
+</html>
+
