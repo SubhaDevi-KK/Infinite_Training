@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Select one</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#selectCsharp').click(function () {
+                $('li').eq(0).css('background-color', 'lightgreen').show();
+                $('li').eq(1).hide();
+                $('li').eq(2).hide();
+            });
+
+            $('#selectSql').click(function () {
+                $('li').eq(1).css('background-color', 'lightblue').show();
+                $('li').eq(0).hide();
+                $('li').eq(2).hide();
+            });
+
+            $('#selectAdo').click(function () {
+                $('li').eq(2).css('background-color', 'lightcoral').show();
+                $('li').eq(0).hide();
+                $('li').eq(1).hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Select one</h1>
+
+    <ul>
+        <li>CSHARP</li>
+        <li>SQL</li>
+        <li>ADO</li>
+    </ul>
+
+    <button id="selectCsharp">Select CSHARP</button>
+    <button id="selectSql">Select SQL</button>
+    <button id="selectAdo">Select ADO</button>
+</body>
+</html>
+

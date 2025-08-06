@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery Input Change</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('input').change(function () {
+                $(this).after('<p>Hi,hello dear ,have a great day!!!</p>');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Greetings!!</h1>
+
+    <input type="text" placeholder="Type something..." />
+
+</body>
+</html>

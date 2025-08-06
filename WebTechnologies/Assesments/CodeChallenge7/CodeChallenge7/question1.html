@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Form</title>
+</head>
+<body>
+    <h2>Sample Form</h2>
+
+   
+    <label>1st Number:</label><br>
+    <input type="number" id="num1"><br><br>
+
+    <label>2nd Number:</label><br>
+    <input type="number" id="num2"><br><br>
+
+    <button onclick="multiplyNumbers()">Multiply</button>
+    <button onclick="divideNumbers()">Divide</button><br><br>
+
+    
+    <p id="result"></p>
+
+    <script>
+        
+        function multiply(x, y) {
+            return x * y;
+        }
+
+        
+        const divide = function (x, y) {
+            if (y === 0) {
+                return "Cannot divide by zero";
+            }
+            return x / y;
+        }
+
+        
+        const getInputValues = () => {
+            let first = parseFloat(document.getElementById("num1").value);
+            let second = parseFloat(document.getElementById("num2").value);
+            return { first: first, second: second };
+        }
+
+        
+        let display = {
+            show: function (message) {
+                document.getElementById("result").innerText = message;
+            }
+        };
+
+        
+        function multiplyNumbers() {
+            let values = getInputValues();
+            let result = multiply(values.first, values.second);
+            display.show("Multiplication Result: " + result);
+        }
+
+        
+        function divideNumbers() {
+            let values = getInputValues();
+            let result = divide(values.first, values.second);
+            display.show("Division Result: " + result);
+        }
+    </script>
+</body>
+</html>

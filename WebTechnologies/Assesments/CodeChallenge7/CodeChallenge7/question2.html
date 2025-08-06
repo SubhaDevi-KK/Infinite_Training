@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Odd or Even Checker</title>
+</head>
+<body>
+    <h2>Odd or Even Checker</h2>
+
+    
+    <button onclick="checkOddEven()">Check Numbers</button><br><br>
+
+    
+    <div id="output"></div>
+
+    <script>
+       
+        function checkOddEven() {
+            var outputDiv = document.getElementById("output");
+            outputDiv.innerHTML = ""; 
+
+            for (var i = 0; i <= 15; i++) {
+                var message = "";
+
+                
+                if (i % 2 === 0) {
+                    message = i + " is even";
+                } else {
+                    message = i + " is odd";
+                }
+
+              
+                var para = document.createElement("p");
+                para.innerText = message;
+                outputDiv.appendChild(para);
+            }
+        }
+    </script>
+</body>
+</html>

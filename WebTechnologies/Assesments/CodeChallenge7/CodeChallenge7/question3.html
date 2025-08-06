@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Click Event Example</title>
+</head>
+<body>
+    <h2>Click event listener </h2>
+
+    
+    <button id="clickBtn">Click Me</button>
+
+    <script>
+        
+        function showMessage() {
+            console.log("Button was clicked!");
+            alert("Button was clicked!");
+        }
+
+        var button = document.getElementById("clickBtn");
+        button.addEventListener("click", showMessage);
+    </script>
+</body>
+</html>

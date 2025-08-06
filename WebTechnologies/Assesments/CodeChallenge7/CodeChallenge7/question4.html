@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hide Odd Rows</title>
+</head>
+<body>
+    <table border="1" id="productTable">
+        <tr>
+            <th>S.No.</th>
+            <th>Product Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Dolls</td>
+            <td>1500</td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Chocolates</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Toys</td>
+            <td>2500</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Biscuits</td>
+            <td>200</td>
+        </tr>
+    </table>
+
+    <br />
+    <button onclick="hideOddRows()">Hide Odd Rows</button>
+
+    <script>
+        function hideOddRows() {
+            var table = document.getElementById("productTable");
+            var rows = table.getElementsByTagName("tr");
+
+            for (var i = 1; i < rows.length; i++) {
+                if (i % 2 !== 0) {
+                    rows[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
