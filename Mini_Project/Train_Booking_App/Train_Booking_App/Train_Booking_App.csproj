@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{93B51BBE-EA3B-4053-8B72-FDA8ADA18DAB}</ProjectGuid>
+    <ProjectGuid>{A723EE85-0D86-49BB-9818-323869DE9719}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodeChallenge7</RootNamespace>
-    <AssemblyName>CodeChallenge7</AssemblyName>
+    <RootNamespace>Train_Booking_App</RootNamespace>
+    <AssemblyName>Train_Booking_App</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,16 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="question1.html" />
-    <Content Include="question2.html" />
-    <Content Include="question3.html" />
-    <Content Include="question4.html" />
-    <Content Include="question5.html" />
-    <Content Include="question6.html" />
-    <Content Include="question7.html" />
-    <Content Include="question8.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
