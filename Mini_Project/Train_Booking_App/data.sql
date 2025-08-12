@@ -157,10 +157,27 @@ INSERT INTO train_compartments VALUES
 (113, 'Executive Chair Car', 1150.00, 40),
 (113, 'Ladies Chair Car', 650.00, 10),
 (113, 'Disabled Chair Car', 650.00, 10)
+ALTER TABLE booking ADD isdeleted BIT NOT NULL DEFAULT 0
+ALTER TABLE train ADD isdeleted BIT DEFAULT 0
+SELECT trainid, trainname, isdeleted FROM train
+
 
 select * from booking
+select * from train
+UPDATE train SET isdeleted = 0;
 
-ALTER TABLE booking ADD isdeleted BIT NOT NULL DEFAULT 0
+CREATE TABLE customer_login (
+    username VARCHAR(100) PRIMARY KEY,
+    password VARCHAR(100)
+)
+
+SELECT bookingid, name, email, status FROM booking
+ALTER TABLE train DROP COLUMN dateofjourney
+ALTER TABLE booking ADD journey_date DATE
+ALTER TABLE train DROP COLUMN totalseats
+
+
+
 
 
 
