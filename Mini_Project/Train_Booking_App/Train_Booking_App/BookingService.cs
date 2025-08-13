@@ -42,7 +42,7 @@ public class BookingService
                     if (!reader.HasRows)
                     {
                         Console.WriteLine(" No trains available for the selected route.");
-                        return; // Stop the booking process
+                        return; 
                     }
 
                     Console.WriteLine("\n Available Trains:");
@@ -66,7 +66,7 @@ public class BookingService
                     Console.WriteLine("\nAvailable Compartments:");
                     while (compReader.Read())
                     {
-                        Console.WriteLine($"{compReader["compartmentid"]}: {compReader["compartmenttype"]} - fare: ₹{compReader["seatprice"]} - Seats Left: {compReader["availableseats"]}");
+                        Console.WriteLine($"{compReader["compartmentid"]}: {compReader["compartmenttype"]} - fare: {compReader["seatprice"]} - Seats Left: {compReader["availableseats"]}");
                     }
                 }
             }

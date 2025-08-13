@@ -23,10 +23,10 @@ namespace Testing
             string username = "testuser";
             string password = "testpass";
 
-            // Act
+            
             bool result = CustomerAuth.Login(username, password);
 
-            // Assert
+            
             Assert.IsFalse(result);
         }
     }
