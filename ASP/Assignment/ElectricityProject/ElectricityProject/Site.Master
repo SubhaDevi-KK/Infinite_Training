@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ElectricityProject.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - Electricity Billing System</title>
+
+    
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <form runat="server">
+        <!-- Simple Navigation -->
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" runat="server" href="~/">Electricity Board</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a runat="server" href="~/Login.aspx">Login</a></li>
+                    <li><a runat="server" href="~/BillEntry.aspx">Bill Entry</a></li>
+                    <li><a runat="server" href="~/RetrieveBills.aspx">Retrieve Bills</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Electricity Billing System</p>
+            </footer>
+        </div>
+
+        <!-- Simple JS references -->
+        <script src="Scripts/jquery-3.6.0.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>
+
