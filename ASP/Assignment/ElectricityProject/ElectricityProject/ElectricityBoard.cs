@@ -41,7 +41,7 @@ public class ElectricityBoard
         List<ElectricityBill> bills = new List<ElectricityBill>();
         using (SqlConnection conn = DBHandler.GetConnection())
         {
-            string query = $"SELECT TOP {num} * FROM ElectricityBill ORDER BY consumer_number DESC";
+            string query = $"SELECT TOP {num} * FROM ElectricityBill ORDER BY created_at DESC";
             SqlCommand cmd = new SqlCommand(query, conn);
             conn.Open();
             SqlDataReader reader = cmd.ExecuteReader();

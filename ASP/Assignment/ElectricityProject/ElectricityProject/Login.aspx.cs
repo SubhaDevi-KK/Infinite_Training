@@ -14,7 +14,7 @@ namespace ElectricityProject
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            // Replace with DB check if needed
+            
             if (username == "admin" && password == "admin123")
             {
                 Session["User"] = username;
