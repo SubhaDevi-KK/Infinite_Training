@@ -29,37 +29,44 @@
     <form id="form1" runat="server">
         <h2>Electricity Bill Entry</h2>
 
+        
         <div class="form-group">
             <label for="txtTotalBills">Number of Bills to Add:</label>
-            <asp:TextBox ID="txtTotalBills" runat="server" />
-            <asp:Button ID="btnStart" runat="server" Text="Start Entry" OnClick="btnStart_Click" />
+            <asp:TextBox ID="txtTotalBills" runat="server" AutoPostBack="true" OnTextChanged="txtTotalBills_TextChanged" />
         </div>
 
-        <div class="form-group">
-            <asp:Label ID="lblEntryCount" runat="server" Font-Bold="true" />
-        </div>
+     
+        <asp:Panel ID="pnlCustomerDetails" runat="server" Visible="false">
+            <div class="form-group">
+                <asp:Label ID="lblEntryCount" runat="server" Font-Bold="true" />
+            </div>
 
-        <div class="form-group">
-            <label for="txtConsumerNumber">Consumer Number:</label>
-            <asp:TextBox ID="txtConsumerNumber" runat="server" />
-        </div>
+            <div class="form-group">
+                <label for="txtConsumerNumber">Consumer Number:</label>
+                <asp:TextBox ID="txtConsumerNumber" runat="server" />
+            </div>
 
-        <div class="form-group">
-            <label for="txtConsumerName">Consumer Name:</label>
-            <asp:TextBox ID="txtConsumerName" runat="server" />
-        </div>
+            <div class="form-group">
+                <label for="txtConsumerName">Consumer Name:</label>
+                <asp:TextBox ID="txtConsumerName" runat="server" />
+            </div>
 
-        <div class="form-group">
-            <label for="txtUnitsConsumed">Units Consumed:</label>
-            <asp:TextBox ID="txtUnitsConsumed" runat="server" />
-        </div>
+            <div class="form-group">
+                <label for="txtUnitsConsumed">Units Consumed:</label>
+                <asp:TextBox ID="txtUnitsConsumed" runat="server" />
+            </div>
 
-        <div class="submit-btn">
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit Bill" OnClick="btnSubmit_Click" />
-            <br /><br />
+            <div class="submit-btn">
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit Bill" OnClick="btnSubmit_Click" />
+            </div>
+        </asp:Panel>
+
+        
+        <div class="submit-btn" style="margin-top: 20px;">
             <asp:Button ID="btnReturn" runat="server" Text="Return to Main Menu" OnClick="btnReturn_Click" />
         </div>
 
+    
         <div style="margin-top: 20px;">
             <asp:Label ID="lblStatus" runat="server" ForeColor="Green" />
         </div>

@@ -19,7 +19,15 @@ namespace ElectricityProject
             set => ViewState["RemainingEntries"] = value;
         }
 
-        protected void btnStart_Click(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                pnlCustomerDetails.Visible = false;
+            }
+        }
+
+        protected void txtTotalBills_TextChanged(object sender, EventArgs e)
         {
             if (int.TryParse(txtTotalBills.Text, out int total) && total > 0)
             {
@@ -28,10 +36,12 @@ namespace ElectricityProject
                 lblEntryCount.Text = $"Enter details for consumer 1 of {total}";
                 lblStatus.Text = "";
                 litSummary.Text = "";
+                pnlCustomerDetails.Visible = true;
             }
             else
             {
                 lblStatus.Text = "Please enter a valid number of bills.";
+                pnlCustomerDetails.Visible = false;
             }
         }
 
@@ -69,15 +79,16 @@ namespace ElectricityProject
                     DisplaySummary();
                     ViewState.Remove("RemainingEntries");
                     ViewState.Remove("Bills");
+                    pnlCustomerDetails.Visible = false;
                 }
             }
             catch (FormatException ex)
             {
-                lblStatus.Text = $"Format Error: {ex.Message}";
+                lblStatus.Text = $" Error: {ex.Message}";
             }
             catch (Exception ex)
             {
-                lblStatus.Text = $"Error: {ex.Message}";
+                lblStatus.Text = $"{ex.Message}";
             }
         }
 
