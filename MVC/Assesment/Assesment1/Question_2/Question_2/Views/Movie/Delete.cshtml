@@ -1,0 +1,25 @@
+﻿
+@model Question2.Models.Movie
+
+<h2>Delete Movie</h2>
+
+<p>Are you sure you want to delete this movie?</p>
+
+<dl>
+    <dt>Movie Name:</dt>
+    <dd>@Model.Moviename</dd>
+
+    <dt>Director:</dt>
+    <dd>@Model.DirectorName</dd>
+
+    <dt>Release Date:</dt>
+    <dd>@Model.DateofRelease.ToShortDateString()</dd>
+</dl>
+
+@using (Html.BeginForm("DeleteConfirmed", "Movie", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Mid)
+    <input type="submit" value="Delete" />
+    @Html.ActionLink("Cancel", "Index")
+}
+

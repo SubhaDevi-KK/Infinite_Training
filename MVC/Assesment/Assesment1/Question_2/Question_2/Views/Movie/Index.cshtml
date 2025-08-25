@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Question2.Models.Movie>
+
+<h2>All Movies</h2>
+
+<p>
+    @Html.ActionLink(" Add New Movie", "Create")
+</p>
+
+<hr />
+
+<h3>Filter by Year</h3>
+@using (Html.BeginForm("MoviesByYear", "Movie", FormMethod.Get))
+{
+    <input type="number" name="year" placeholder="Enter release year" required />
+    <input type="submit" value="Search by Year" />
+}
+
+<h3>Filter by Director</h3>
+@using (Html.BeginForm("MoviesByDirector", "Movie", FormMethod.Get))
+{
+    <input type="text" name="directorName" placeholder="Enter director name" required />
+    <input type="submit" value="Search by Director" />
+}
+
+<hr />
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Movie Name</th>
+        <th>Director</th>
+        <th>Release Date</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Moviename</td>
+            <td>@item.DirectorName</td>
+            <td>@item.DateofRelease.ToShortDateString()</td>
+            <td>
+                @Html.ActionLink(" Edit", "Edit", new { id = item.Mid }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Mid })
+            </td>
+        </tr>
+    }
+</table>
